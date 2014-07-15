@@ -1,0 +1,7 @@
+# Jekyll
+_site
+
+
+# RVM 
+.ruby-version
+.ruby-gemset
