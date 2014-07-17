@@ -4,7 +4,9 @@
 
     <div class="blog-footer">
       <p>
-        Built with <a href="#">jekyll</a>, <a href="#">bootstrap</a>, <a href="#">GitHub Pages</a>
+        Built with <a href="http://jekyllrb.com" target="_blank">jekyll</a>,
+        <a href="http://getbootstrap.com" target="_blank">bootstrap</a>,
+        <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
       </p>
     </div>
 
