@@ -2,6 +2,9 @@
 _site
 
 
-# RVM 
+# RVM
 .ruby-version
 .ruby-gemset
+
+# OSX
+.DS_Store
