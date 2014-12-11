@@ -1,10 +1,10 @@
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="blog sobre ruby rails, php laravel, startup, marketing, empreendedorismo e tudo mais que é bacana de aprender">
+    <meta name="author" content="Matheus Andrade">
     <link rel="icon" href="/assets/favicon.ico">
 
     <title>{{page.title}}</title>
@@ -50,7 +50,7 @@
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title"><a href="/">@matheuslao's Blog</a></h1>
+        <h1 class="blog-title"><a href="/">@matheuslao's blog</a></h1>
         <p class="lead blog-description">Aprendendo, testando e escrevendo para não esquecer e compartilhar.</p>
       </div>
       <div class="row">
