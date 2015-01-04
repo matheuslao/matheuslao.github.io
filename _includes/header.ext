@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="blog sobre ruby rails, php laravel, startup, marketing, empreendedorismo e tudo mais que é bacana de aprender">
     <meta name="author" content="Matheus Andrade">
+    <meta name="robots" content="index, follow">
     <link rel="icon" href="/assets/favicon.ico">
 
     <title>{{page.title}}</title>
