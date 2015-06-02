@@ -11,6 +11,13 @@ Me bati um pouco ao procurar uma forma simples e elegante de mostrar números de
 telefones no formato brasileiro. Então, deixo aqui dica rápida em como apresentar
 números de telefones brasileiros em projetos **Rails**
 
+De imediato, encontrei um **helper** do Rails com a função [number_to_phone][1], mas
+confesso que não encontrei uma forma de usá-lo e formatá-lo aos padrões brasileiros.
+
+Assim, fui procurar outra solução. Lembrando que para os exemplos abaixo, considerei
+armazenar o número de telefone no banco como uma **String** que contem somente números,
+ou seja, não persisto valores como parêntesis e espaços em brancos.
+
 
 ### COM formulários
 
@@ -69,3 +76,5 @@ E em nossas *views* referentes, basta chamar assim:
 ```ruby
 <%= phone_format @person.phone_number %>  
 ```
+
+[1]: http://api.rubyonrails.org/classes/ActionView/Helpers/NumberHelper.html#method-i-number_to_phone
