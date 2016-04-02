@@ -1,22 +1,20 @@
 ---
 layout: post
-title: "Rails 5 API - App Exemplo - parte 1"
+title: "Tutorial: Rails 5 API - parte 1"
 date: 2016-04-02 13:50:53
 categories: rails, api, tutoriais
 tags: rails, rails 5, api, restful, tutoriais, postman, curl
 
 ---
 
-Olá!
-
-Como o próprio título do post diz, pretendo fazer uma aplicação-exemplo para estudo de como desenvolver uma API utilizando Rails 5 (em *beta_3* no momento que escrevo este post) e consumir os dados em uma app desenvolvida com tecnologias _frontend_.
+Olá! Como o próprio título do post diz, pretendo fazer uma aplicação-exemplo para estudo de como desenvolver uma API utilizando Rails 5 (em *beta_3* no momento que escrevo este post) e consumir os dados em uma app desenvolvida com tecnologias _frontend_.
 
 Até agora não sei que tecnologia/framework _javascript_ irei utilizar neste tutorial, ficando aberto à sugestões.
 
 Nossa aplicação será um simples Gerenciador de Notas chamado **notes-api**
 
 
-## Criando o projeto em modo API
+### Criando o projeto em modo API
 
 A quinta versão de nosso amado framework incorporou uma famosa gem para desenvolvimento de APIs com Rails: [rails-api][rails_api].
 
@@ -33,7 +31,7 @@ sendo no nosso caso:
     rails new notes-api --api
 
 
-##  Algumas diferenças do modo API
+###  Algumas diferenças do modo API
 
 Se você já tem experiência com Rails, perceberá a diferença na estrutura do projeto em relação a uma aplicação rails "normal".
 
@@ -56,7 +54,7 @@ module NotesApi
 end
 ```
 
-## Scaffold para API
+### Scaffold para API
 
 Como nossa aplicação é apenas para estudo, uma maneira rápida de criar uma estrutura completa de **CRUD** no Rails é utilizando o gerador conhecido como *scaffold*.
 
@@ -84,7 +82,7 @@ E iniciar o server para verificar a aplicação funcionando:
 
     rails s
 
-## Testando a API
+### Testando a API
 
 Você pode testar as requisições para a API com a ferramenta que achar melhor.
 
@@ -100,7 +98,7 @@ E uma requisição POST para criação de uma nova nota com um comando assim:
 Se deseja uma interface gráfica, recomendo o [postman][postman-url] que possue um *plugin* para o *Google Chrome* e um aplicativo para usuários Mac.
 
 
-## Próximos Passos
+### Próximos Passos
 
 Nos próximos posts da série, tentarei aplicar funcionalidades de serialização, autenticação, proteção/configuração para requisições e o que mais for interessante.
 
