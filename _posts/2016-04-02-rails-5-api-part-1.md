@@ -110,6 +110,6 @@ Até!
 
 
 
-[rails_api]:(https://github.com/rails-api/rails-api)
-[curl-url]:(https://curl.haxx.se)
-[postman-url]:(https://www.getpostman.com)
+[rails_api]:https://github.com/rails-api/rails-api
+[curl-url]:https://curl.haxx.se
+[postman-url]:https://www.getpostman.com
